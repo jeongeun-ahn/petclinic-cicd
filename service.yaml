@@ -4,7 +4,7 @@ metadata:
   name: petclinic-svc
 spec:
   selector:
-    app: petclinic
+    app: user18-petclinic
   ports:
   - port: 80
     targetPort: 8080
