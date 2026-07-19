@@ -24,6 +24,9 @@ spec:
         - containerPort: 8080
 
         env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: mysql
+
         - name: MYSQL_URL
           value: jdbc:mysql://user18-db-mysql.ctkwmaky2p3u.ap-southeast-2.rds.amazonaws.com:3306/petclinic
 
